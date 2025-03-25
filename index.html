@@ -1,0 +1,97 @@
+<!DOCTYPLE html>
+<html>
+<head>
+<title></title>
+<style>
+    body{
+        background-color: #003135;
+    }
+    h1{
+        color: #afdde5;
+        margin:30px;
+    }
+    p{
+        color: #0fa4af;
+        background-color: #024950;
+        margin-left:20px;
+        padding: 20px;
+        border-radius:10px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }
+    p:hover{
+        margin:10px;
+        padding:25px;
+        transition: 0.3s;
+    }
+    a{
+        color: #afdde5;
+        text-decoration:none;
+    }
+    a:hover{
+        background-color: #0fa4af;
+        padding:5px;
+        border-bottom: 3px solid  #0e565c;
+        border-right: 3px solid  #0e565c;
+        border-radius:15px;
+        transition:500ms;
+    }
+    #container{
+        display: flex;
+        justify-content: center;
+        align-items: center;        
+    }
+    #box{
+        height: 230px; 
+        width: 1190px;
+        /* height: 460px; 
+        width: 650px; */
+        padding: 10px;
+        background-color:#024950;
+        border-radius:20px;
+        display: flex;
+        /* flex-wrap: wrap; */
+        justify-content: center;
+        align-items: center; 
+    }
+    #box:hover{
+        width: 1200px;
+        transition: 0.3s;
+    }
+    #box img:hover{
+        width:320px;
+        height:240px;
+        border-radius:20px;
+        border:none;
+        transition:0.3s;
+    }
+    img{
+        width:280px;
+        height:200px;
+        margin:7px;
+        /* border:2px solid black; */
+        
+    }
+    #galleryHeading{
+        text-align:center;
+    }
+
+</style>
+</head>
+<body>
+    <h1>About <a href="https://en.wikipedia.org/wiki/Bidupur">Bidupur</a>📌</h1>
+    <p>Ah, Bidupur! This charming town in Bihar is a beautiful blend of rural serenity and cultural significance. Nestled along the Ganges River, Bidupur enjoys the picturesque landscapes that are both soothing and inspiring. Known for its agricultural roots, the town reflects the heart of India—hardworking people, vibrant traditions, and a sense of community that feels genuinely warm.
+    <br>
+    <br>
+    Bidupur, being a smaller town, offers a slower pace of life, which contrasts the hustle and bustle of larger cities. It's also a place where history and culture thrive, with Bihar itself being home to ancient landmarks and events that have shaped Indian heritage.</p>
+    <h1 id="galleryHeading">GALLERY</h1> 
+    <div id="container"> 
+        <div id="box">
+            
+            <img id="image1" src="1.jpg" alt="">
+            <img id="image2" src="2.jpg" alt="">
+            <img id="image3" src="3.jpg" alt="">
+            <img id="image4" src="4.jpg" alt="">
+        </div>
+    </div>
+</body>
+</html>
